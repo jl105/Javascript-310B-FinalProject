@@ -1,0 +1,89 @@
+/* body {
+  background-color: #f16059;
+} */
+.page {
+  width: 80%;
+  max-width: 960px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #f16059;
+  border-radius: 5px;
+}
+/* body {
+  font: 14px/26px 'Bungee', Helvetica, Arial, sans-serif;
+  color: #222;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+} */
+/* header{
+  font-size: 24px;
+  line-height: 48px;
+} */
+/* h4 {
+  font-size: 21px;
+  font-family: 'Bungee', cursive;
+} */
+h4 #clock {
+  font-size: 36px;
+  display: block;
+  padding: 5px 0px;
+  font-size: 21px;
+  font-family: 'Bungee', cursive;
+}
+h4#myTitle {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 13px;
+} */
+
+#myPortraint {
+  max-width:30em
+}
+
+blockquote {
+  font: 2em/1em 'Open Sans', sans-serif;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 2px 2px #000;
+  margin: -80px 0 100px 0;
+  color: #fff;
+}
+
+blockquote:before { content: '"'; }
+blockquote:after { content: '"'; }
+
+
+footer p {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 866px}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+}
+
+td, th {
+    border: 1px solid #000;
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
+}
