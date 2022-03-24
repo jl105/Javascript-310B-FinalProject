@@ -66,6 +66,16 @@ footer p {
   height: 100%;
 }
 
+.valid {
+    color: rgb(73, 80,87) !important;
+}
+.invalid {
+    color: #f16059 !important;
+}
+
+#tblPetBird>thead>tr>th {
+    border-top: 1px solid #ddd !important;
+}
 /* Set black background color, white text and some padding */
 footer {
   background-color: #555;
